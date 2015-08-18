@@ -1,0 +1,47 @@
+body{
+  background-color:#333;
+  margin:0px;
+  padding:0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-family:monospace;
+}
+
+a{
+  color: inherit;
+}
+
+.gnar{
+  text-align: center;
+  height: 100%;
+  white-space: nowrap;
+}
+ 
+.gnar:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.biz {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  color: green;
+  font-weight: bold;
+  white-space: pre;
+  text-shadow: 0 0 0.2em #0F0;
+  color:#ccc;
+}
+
+.github{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #ccc;
+  text-shadow: 0 0 0.2em #0F0;
+  font-weight: bold;
+}
