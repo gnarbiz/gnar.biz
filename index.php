@@ -1,6 +1,4 @@
-<?php
-  require_once('inc/fuck.caching.php');
-?>
+<?php require_once('inc/fuck.caching.php'); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,11 +6,10 @@
     <link href='css/gnar.biz.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
+  <?php require_once('inc/ga.php'); ?>
   <div class='gnar'>
     <div class='biz'>
-    <?php 
-      echo file_get_contents('ascii/gnar.biz.txt');
-    ?>
+    <?php echo file_get_contents('ascii/gnar.biz.txt'); ?>
     </div>
   </div>
   <div class='github'>
