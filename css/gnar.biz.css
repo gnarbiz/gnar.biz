@@ -30,18 +30,11 @@ a{
   display: inline-block;
   vertical-align: middle;
   width: auto;
-  color: green;
-  font-weight: bold;
   white-space: pre;
-  text-shadow: 0 0 0.2em #0F0;
-  color:#ccc;
 }
 
 .github{
   position: fixed;
   bottom: 10px;
   right: 10px;
-  color: #ccc;
-  text-shadow: 0 0 0.2em #0F0;
-  font-weight: bold;
 }

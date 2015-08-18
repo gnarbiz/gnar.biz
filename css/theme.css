@@ -1,0 +1,52 @@
+/* 
+ * theme class name is derived from inc/asci/FILENAME stripped of periods
+ * example: inc/ascii/foo.bar.baz returns theme class of "foobarbaz"  
+*/
+ 
+.gnarbiz1{
+  color: #ccc;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em #0F0;
+}
+
+.gnarbiz2{
+  color: #efdcba;
+  text-shadow: none;
+}
+
+.gnarbiz3{
+  color: #ccc;
+  font-weight: bold;
+  text-shadow: 0 0 1em #fa0000;
+  background-color: #000;
+}
+
+.gnarbiz4{
+  color: black;
+  background-color: white;
+}
+
+.gnarbiz4 .biz{
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #000;
+}
+
+.gnarbiz4 a{
+  text-decoration: none;
+}
+
+.gnarbiz4 .github{
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 11px;
+}
+
+.gnarbiz5{
+  color: #000;
+  background-color: #444;
+  text-shadow: 1px 1px 1px gold;
+}
+
+.gnarbiz5 .biz:hover{
+  text-shadow: 125px 125px 5px #ffffff;
+  color: gold;
+}
