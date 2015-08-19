@@ -16,9 +16,7 @@
   <div class='gnar'>
     <div class='biz'><?=$random_ascii?></div>
   </div>
-  <div class='github'>
-    <a href='//github.com/gnarbiz'>github</a>
-  </div>
+  <?php require_once 'inc/footer.php'; ?>
   </body>
 </html>
 
